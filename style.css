@@ -59,7 +59,10 @@ h1 {
 .float {
   position: absolute;
   pointer-events: none;
+  font-size: 1.4rem;
   font-weight: bold;
+  white-space: nowrap;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   animation: float-up 0.8s ease-out forwards;
 }
 
@@ -97,14 +100,37 @@ h1 {
   cursor: not-allowed;
 }
 
+.shop button > span:first-child {
+  flex: 1;
+  margin-right: 12px;
+}
+
 .shop small {
   display: block;
   opacity: 0.8;
 }
 
+.shop .effect {
+  color: #ffd98a;
+  opacity: 1;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.shop .cost {
+  white-space: nowrap;
+}
+
 .owned {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.empty {
+  margin-bottom: 8px;
+  opacity: 0.6;
 }
 
 .reset {
