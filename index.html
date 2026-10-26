@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nail Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="layout">
+    <section class="left">
+      <h1>Nail Clicker</h1>
+      <p class="count"><span id="nails">0</span> 本</p>
+      <p class="rate">毎秒 <span id="perSecond">0</span> 本</p>
+      <button id="nail" class="nail" aria-label="釘を打つ">
+        <svg viewBox="0 0 100 200" width="120" height="240" aria-hidden="true">
+          <rect x="10" y="10" width="80" height="20" rx="6" fill="#9aa3ad" stroke="#5c646d" stroke-width="3"/>
+          <polygon points="38,30 62,30 58,170 50,195 42,170" fill="#b8c0c8" stroke="#5c646d" stroke-width="3"/>
+        </svg>
+      </button>
+    </section>
+
+    <section class="right">
+      <h2>ショップ</h2>
+      <ul id="shop" class="shop"></ul>
+      <button id="reset" class="reset">データを消す</button>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
