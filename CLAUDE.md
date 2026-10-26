@@ -17,6 +17,8 @@
 ## 実行方法
 
 - `index.html` をブラウザで開くだけで動く。ビルド不要。
+- GitHub Pages で公開中（`main` ブランチのルート）：https://kdt26aie40005-oss.github.io/game-asdfghjk/
+  - `main` にプッシュすると、1〜2 分で公開ページにも反映される。
 
 ## ファイル構成
 

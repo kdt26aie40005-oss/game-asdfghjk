@@ -3,6 +3,8 @@
 クッキーのかわりに**釘**をひたすら打つ、ブラウザで遊べるクリッカーゲームです。
 [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) のオマージュ作品です。
 
+### [▶ 今すぐ遊ぶ](https://kdt26aie40005-oss.github.io/game-asdfghjk/)
+
 ![ゲーム画面](docs/screenshot.png)
 
 ## 遊び方
@@ -17,7 +19,11 @@
 
 ## 起動方法
 
-`index.html` をブラウザで開くだけで遊べます。インストールやビルドは必要ありません。
+次のページを開けば、すぐに遊べます。
+
+https://kdt26aie40005-oss.github.io/game-asdfghjk/
+
+手元で遊ぶ場合は、リポジトリをダウンロードして `index.html` をブラウザで開くだけです。インストールやビルドは必要ありません。
 
 ## 主な要素
 
