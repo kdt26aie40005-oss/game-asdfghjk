@@ -3,6 +3,8 @@
 クッキーのかわりに**釘**をひたすら打つ、ブラウザで遊べるクリッカーゲームです。
 [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) のオマージュ作品です。
 
+![ゲーム画面](docs/screenshot.png)
+
 ## 遊び方
 
 1. 画面左の釘をクリックすると、「カンッ」と釘が 1 本増えます。
@@ -38,6 +40,7 @@
 | `data.js` | 施設・強化の名前、説明文、数値 |
 | `main.js` | ゲームの動き（計算、ショップ、セーブ） |
 | `変更案.md` | これから入れる変更点のまとめ |
+| `docs/screenshot.png` | README 用のゲーム画面 |
 | `CLAUDE.md` | Claude Code 向けの作業ガイド |
 
 ## 使用技術
